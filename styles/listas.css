@@ -1,0 +1,128 @@
+body {
+    background: url(../imagens/fototemplo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wallpaperlist {
+    position: absolute;
+    width: 1459px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Centralizar o retângulo de texto no topo */
+.texto {
+    position: absolute;
+    width: 824px; /* Largura do retângulo */
+    height: auto; /* Altura automática baseada no conteúdo */
+    left: 50%; /* Alinhamento central no eixo X */
+    top: 10px; /* Ajuste da distância do topo */
+    transform: translateX(-50%); /* Compensa 50% da largura do elemento para centralizar */
+    text-align: center; /* Texto centralizado dentro do retângulo */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+    background: rgba(198, 149, 111, 0.5); /* Fundo semitransparente */
+    padding: 20px; /* Espaço interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.retangulo2 {
+    position: absolute;
+    width: 403px;
+    height: 230px;
+    left: 0px;
+    top: 171px;
+    background: rgba(198, 149, 111, 0.5);
+}
+
+.jogos {
+    position: absolute;
+    width: 396px;
+    height: 335px;
+    left: 0px;
+    top: 141px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.retangulo4 {
+    position: absolute;
+    width: 508px;
+    height: 343px;
+    right: 0px;
+    top: 163px;
+    background: rgba(198, 149, 111, 0.5);
+}
+
+.livros {
+    position: absolute;
+    width: 500px;
+    height: 265px;
+    right: 0px;
+    top: 165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.retangulo3 {
+    position: absolute;
+    width: 268px;
+    height: 255px;
+    left: 0px;
+    top: 475px;
+    background: rgba(198, 149, 111, 0.5);
+}
+
+.luta {
+    position: absolute;
+    width: 378px;
+    height: 289px;
+    left: 9px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.elipse {
+    position: absolute;
+    width: 84px;
+    height: 85px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 10px;
+}
+
+.x a {
+    font-family: 'Inter';
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background da página */
+body {
+    background: #D9A3A3;
+    position: relative; /* Para que os itens absolutos fiquem dentro do body */
+    height: 100vh; /* Altura total da tela */
+}
+
+/* Estilização da galeria */
+.gallery {
+    position: relative;
+    width: 100%; /* Galeria ocupa a largura total */
+    height: 100%; /* Altura total da tela */
+}
+
+/* Estilização das imagens com posições manuais */
+.foto1 img {
+    position: absolute;
+    width: 650px;
+    height: 360px;
+    top: 0px; /* Ajuste manual para posicionar a imagem */
+}
+
+.foto2 img {
+    position: absolute;
+    width: 670px;
+    height: 360px;
+    top: 0px;
+    left: 650px;
+}
+
+.foto3 img {
+    position: absolute;
+    width: 600px;
+    height: 360px;
+    top: 0px;
+    right: 0px;
+}
+
+.foto4 img {
+    position: absolute;
+    width: 293px;
+    height: 390px;
+    top: 360px;
+    left: 0px;
+}
+
+.foto5 img {
+    position: absolute;
+    width: 323px;
+    height: 390px;
+    top: 360px;
+    right: 0px;
+}
+
+.foto6 img {
+    position: absolute;
+    width: 750px;
+    height: 330px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.foto7 img {
+    position: absolute;
+    width: 770px;
+    height: 330px;
+    bottom: 0px;
+    left: 750px;
+}
+
+.foto8 img {
+    position: absolute;
+    width: 400px;
+    height: 330px;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Estilização do texto no centro */
+.texto {
+    position: absolute;
+    width: 824px;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o texto horizontal e verticalmente */
+    text-align: center;
+    
+    font-family: 'Ingrid Darling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 119px;
+
+    color: #000000;
+}
+
+/* Elipse com o botão X */
+.elipse {
+    position: absolute;
+    width: 84px;
+    height: 85px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 10px;
+}
+
+.x a {
+    font-family: 'Inter';
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

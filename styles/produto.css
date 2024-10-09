@@ -1,0 +1,126 @@
+body {
+    position: relative;
+
+    background: url(../imagens/papelprod.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.retangulo1 {
+    position: absolute;
+    width: 70%;
+    height: 140px;
+    left: 15%;
+    right: 15%;
+    top: -23px;
+    align-items: center;
+    background: rgba(178, 158, 143, 0.3);
+}
+
+.treine {
+
+    position: absolute;
+    width: 648px;
+    height: 399px;
+    left: 330px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 79px;
+    line-height: 0px;
+
+    color: #000000;
+}
+
+
+.retangulo2 {
+
+    position: absolute;
+    width: 550px;
+    height: 336px;
+    left: -12px;
+    top: 141px;
+
+    background: rgba(178, 158, 143, 0.5);
+    mix-blend-mode: normal;
+}
+
+.retangulo3 {
+
+    position: absolute;
+    width: 672px;
+    height: 499px;
+    left: 1063px;
+    top: 141px;
+
+    background: rgba(178, 158, 143, 0.5);
+    mix-blend-mode: normal;
+}
+
+.eum {
+    position: absolute;
+    width: 648px;
+    height: 399px;
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.ola {
+
+    position: absolute;
+    width: 513px;
+    height: 417px;
+    left: 7px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+
+.xadrez img {
+
+    position: absolute;
+    width: 397px;
+    height: 126px;
+    left: 131px;
+    top: 772px;
+
+}
+
+.elipse {
+    position: absolute;
+    width: 84px;
+    height: 85px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 10px;
+}
+
+.x a {
+    font-family: 'Inter';
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

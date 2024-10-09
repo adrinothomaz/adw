@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/fotoialaranja.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.introdução {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 108px); /* Ajusta a altura para considerar o retângulo inferior */
+    overflow: hidden; /* Impede a rolagem */
+}
+
+
+.retangulo1 {
+    width: 1905px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+    background: #9E633A;
+}
+
+.retangulo2 {
+    position: fixed; /* Mantém o retângulo fixo no final da tela */
+    width: 100%; /* Ajusta para ocupar toda a largura */
+    height: 108px;
+    left: 0;
+    bottom: 0;
+    background: #9E633A;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-start; /* Alinha os elementos à esquerda */
+    padding-left: 20px; /* Adiciona um espaço à esquerda */
+}
+
+.galeriaint {
+
+    position: absolute;
+    width: 255px;
+    height: 102px;
+    left: 1370px;
+    top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+.listasint {
+
+    position: absolute;
+    width: 142px;
+    height: 88px;
+    left: 1171px;
+    top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+
+.frame1 {
+
+    position: absolute;
+    width: 501px;
+    height: 157.77px;
+    left: 0.77px;
+    top: 610px;
+
+    background: rgba(158, 99, 58, 0.5);
+    transform: rotate(0.28deg);
+}
+
+.textoint {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    transform: rotate(0.28deg);
+}
+
+.sou {
+
+    position: absolute;
+    width: 499.17px;
+    height: 317.82px;
+    left: 0.77px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+    transform: rotate(0.28deg);
+    
+}
+
+.whatsapp {
+    margin-left: 500px;
+    background: url(../imagens/whatsapp.png) no-repeat center center;
+}
+
+.gmail {
+    margin-left: 680px;
+    margin-top: 10px;
+    background: url(../imagens/gmail.png) no-repeat center center;
+}
+
+.idtel {
+
+    position: absolute;
+    height: 112px;
+    margin-left: 1260px;
+    margin-top: 35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+
+.idgmail {
+
+    position: absolute;
+    height: 67px;
+    margin-bottom: 5px;
+    margin-left: 726px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.produtoint {
+
+    position: absolute;
+    height: 48px;
+    left: 1588px;
+    top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+
+.elipse {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 10px; /* Ajuste para centralizar melhor */
+    border-radius: 50%;
+    background: #DED5BF;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza a logo */
+}
+
+.elipse img {
+    width: 130%; /* Ajusta o tamanho da logo */
+    height: 130%;
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
+ 
+.contatoint {
+
+
+    position: absolute;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+    color: #000000;
+}
+
+.imagem-posicionada {
+    position: fixed; /* Permite que a imagem seja fixada na tela */
+    bottom: 0; /* Alinha a imagem ao fundo da tela */
+    right: 0; /* Alinha a imagem à direita da tela */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: 300px; /* Mantém a proporção da imagem */
+    width: auto;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.idgmail,.idtel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.gmail, .whatsapp {
+    width: 40px; /* Ajusta o tamanho dos ícones */
+    height: 40px;
+    background-size: cover; /* Garante que a imagem ocupe todo o ícone */
+}
+
+.contato-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+}
